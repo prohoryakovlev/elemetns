@@ -30,14 +30,20 @@ const div = document.createElement('div');
 div.classList.add('black');
 
 // wrapper.append(div);
+// wrapper.appendChild(div);
 
 // wrapper.prepend(div);
 
 // hearts[0].before(div);
-
 // hearts[0].after(div);
 
+// wrapper.insertBefore(div, hearts[1]);
+
 // circles[0].remove();
+// wrapper.removeChild(hearts[1]);
 
 // hearts[0].replaceWith(circles[0]);
+// wrapper.replaceChild(circles[0], hearts[0]);
+
+
 
