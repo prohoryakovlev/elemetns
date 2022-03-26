@@ -1,25 +1,9 @@
 'use strict';
 
-const box = document.getElementById('box');
+const box = document.getElementById('box'),
+      btns = document.querySelector('button'),
+      circles = document.getElementsByClassName('circle'),
+      hearts = document.querySelectorAll('heart'),
+      oneHeart = document.querySelector('.heart');
 
-console.log(box);
-
-const btns = document.querySelector('button');
-
-console.log(btns);
-
-const circles = document.getElementsByClassName('circle');
-
-console.log(circles);
-
-const hearts = document.querySelectorAll('.heart');
-
-console.log(hearts);
-
-hearts.forEach(item => {
-  console.log(item);
-});
-
-const oneHeart = document.querySelector('div');
-console.log(oneHeart);
 
